@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.background {
+    background: url('https://source.unsplash.com/1600x900/?bitcoin,crypto') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 15px;
+    background-color: #f1c40f;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #d4ac0d;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
